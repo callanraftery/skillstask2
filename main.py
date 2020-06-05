@@ -12,12 +12,12 @@ if answer.lower().strip() == "yes":
         else:
             print("The monster trips over, and you get away.")
 
-        answer = input("You see a car and a plane, which will you take? (car/plane")
+            answer = input("You see a car and a plane, which will you take? (car/plane")
 
-        if answer == "plane":
-            print("You realise you are untrained for flight, and cannot fly. Goodbye.")
-        else:
-            print("You drive off happily. Goodbye!")
+            if answer == "plane":
+                print("You realise you are untrained for flight, and cannot fly. Goodbye.")
+            else:
+                print("You drive off happily. Goodbye!")
 
     elif answer == "right":
         answer = input("You wander through a forest and fall in a hunter's trap. Do you attempt to climb out "
